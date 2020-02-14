@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DC2DB0823F5F735009323BC /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC2DB0723F5F735009323BC /* Country.swift */; };
 		CBB85A6D212B56A300594622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB85A6C212B56A300594622 /* AppDelegate.swift */; };
 		CBB85A6F212B56A300594622 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB85A6E212B56A300594622 /* ViewController.swift */; };
 		CBB85A72212B56A300594622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB85A70212B56A300594622 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		CBB85A77212B56A500594622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB85A75212B56A500594622 /* LaunchScreen.storyboard */; };
 		CBB85A82212B56A500594622 /* _018_08_20_read_JSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB85A81212B56A500594622 /* _018_08_20_read_JSONTests.swift */; };
 		CBB85A8D212B56A500594622 /* _018_08_20_read_JSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB85A8C212B56A500594622 /* _018_08_20_read_JSONUITests.swift */; };
+		CBB85A9B212B570900594622 /* President.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB85A9A212B570900594622 /* President.swift */; };
+		CBB85A9D212B573400594622 /* TopLevelStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB85A9C212B573400594622 /* TopLevelStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8DC2DB0723F5F735009323BC /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		CBB85A69212B56A300594622 /* 2018-08-20-read-JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2018-08-20-read-JSON.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB85A6C212B56A300594622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBB85A6E212B56A300594622 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		CBB85A88212B56A500594622 /* 2018-08-20-read-JSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2018-08-20-read-JSONUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB85A8C212B56A500594622 /* _018_08_20_read_JSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _018_08_20_read_JSONUITests.swift; sourceTree = "<group>"; };
 		CBB85A8E212B56A500594622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB85A9A212B570900594622 /* President.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = President.swift; sourceTree = "<group>"; };
+		CBB85A9C212B573400594622 /* TopLevelStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopLevelStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				CBB85A73212B56A500594622 /* Assets.xcassets */,
 				CBB85A75212B56A500594622 /* LaunchScreen.storyboard */,
 				CBB85A78212B56A500594622 /* Info.plist */,
+				CBB85A9A212B570900594622 /* President.swift */,
+				CBB85A9C212B573400594622 /* TopLevelStorage.swift */,
+				8DC2DB0723F5F735009323BC /* Country.swift */,
 			);
 			path = "2018-08-20-read-JSON";
 			sourceTree = "<group>";
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB85A9D212B573400594622 /* TopLevelStorage.swift in Sources */,
+				CBB85A9B212B570900594622 /* President.swift in Sources */,
 				CBB85A6F212B56A300594622 /* ViewController.swift in Sources */,
+				8DC2DB0823F5F735009323BC /* Country.swift in Sources */,
 				CBB85A6D212B56A300594622 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
