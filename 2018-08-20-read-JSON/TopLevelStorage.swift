@@ -8,15 +8,12 @@
 
 import Foundation
 
-
-// Provides kanji data from JSON
 class TopLevelStorage {
         
     let completeFILEUrl = URL(string: "file:///Users/pgb15001/data/2020/presidents.json")
     let url = "https://restcountries.eu/rest/v2/all"
     
     init() {
-        // Parse json and store it's data
         
         let urlObj = completeFILEUrl
         
