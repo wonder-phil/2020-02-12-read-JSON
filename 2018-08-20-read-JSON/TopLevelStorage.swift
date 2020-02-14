@@ -15,9 +15,6 @@ class TopLevelStorage {
     
     init() {
         
-        let urlObj = completeFILEUrl
-        
-        print(urlObj!)
         URLSession.shared.dataTask(with: completeFILEUrl!) { (data, response, error) in
             do {
                 let presidents = try JSONDecoder().decode([President].self, from: data!)

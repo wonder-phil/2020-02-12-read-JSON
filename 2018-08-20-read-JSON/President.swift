@@ -6,10 +6,6 @@
 //  Copyright © 2018 Phillip Bradford. All rights reserved.
 //
 
-import Foundation
-
-
-
 struct President: Codable {
     let name: String
     let which: String
