@@ -47,7 +47,7 @@ class TopLevelStorage {
                         print(httpResponse.statusCode)
                     }
                     for c in countries {
-                        if (c.name.starts(with: "Z")) {
+                        if (c.name.starts(with: "U")) {
                             print(c.name)
                         }
                     }
@@ -56,7 +56,7 @@ class TopLevelStorage {
                     print(error)
                 }
             
-            }.resume()
+        }.resume()
 
         print("After REST call")
     }
